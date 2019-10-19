@@ -1,0 +1,28 @@
+{
+    "name": "hello-cloud-firebase-auth-trigger-example",
+    "version": "1.0.0",
+    "description": "Illustrating how Firebase Functions are different in terms of deployment, and utility.",
+    "main": "index.js",
+    "repository": "https://github.com/aslattery/hello-cloud",
+    "author": "Andrew Slattery",
+    "license": "MIT",
+    "private": true,
+    "engines": {
+        "node": "10"
+    },
+    "scripts": {
+        "serve": "firebase serve --only functions",
+        "shell": "firebase functions:shell",
+        "start": "npm run shell",
+        "deploy": "firebase deploy --only functions",
+        "logs": "firebase functions:log"
+    },
+    "dependencies": {
+        "firebase-admin": "^8.6.1",
+        "firebase-functions": "^3.3.0"
+    },
+    "devDependencies": {
+        "firebase-functions-test": "^0.1.6",
+        "prettier": "^1.18.2"
+    }
+}

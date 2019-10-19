@@ -1,0 +1,19 @@
+{
+    "name": "hello-cloud-http-trigger-example",
+    "version": "1.0.0",
+    "description": "Showcasing the flexibility of running JS functions on Google Cloud.",
+    "main": "index.js",
+    "repository": "https://github.com/aslattery/hello-cloud",
+    "author": "Andrew Slattery",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "functions-framework --target=helloCloud"
+    },
+    "dependencies": {
+        "@google-cloud/functions-framework": "^1.3.2"
+    },
+    "devDependencies": {
+        "prettier": "^1.18.2"
+    }
+}
